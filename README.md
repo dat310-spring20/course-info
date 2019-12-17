@@ -45,19 +45,3 @@ This is a tentative shedule and will be subject to changes.
 | 17/04 Fri | Trial exam /Part I. | |
 | 21/04 Tue | Trial exam /Part II. | |
 | 24/04 Fri | Circuit war final | |
-
-## Assignments
-
-
-| Assignment | Announced | Deadline | Points | Solution |
-| --- | --- | --- | --- | --- |
-| [#1 HTML](assignment-1/) | 07/01 | 10/01 | 0.7p |  |
-| [#2 CSS](assignment-2/) | 14/01 | 24/01 | 0.7p |  |
-| [#3 Page prototype](assignment-3/) | 22/01 | 08/02 12:00 | 1.4p |   |
-| [#4 JavaScript](assignment-4/) | 30/01 | 15/02 12:00 | 1.3p |   |
-| [#5 jQuery](assignment-5/) | 12/02 |01/03 12:00 | 1.3p |   |
-| [#6 Gradebook](assignment-6/) | 27/02 | 08/03 12:00 | 0.7p |  |
-| [#7 Booking site](assignment-8/) | 13/03  | 12/04 12:00 | 1.4p |   |
-| [#8 AJAX](assignment-9/) | 20/03 | 19/04 12:00 | 0.9p |  |
-| [#9 Booking admin](assignment-10/) | 03/04 | 26/04 12:00 | 1.4p |  |
-| [#10 Circuit Wars](assignment-7/) | 06/03 | 22/03 12:00 | 1p |  |
