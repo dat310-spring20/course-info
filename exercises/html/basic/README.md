@@ -159,6 +159,7 @@ Create the following HTML page:
   - Make a `<main>` element that contains three `<article>` elements.  Each article should contain
     * A title in `<h2>`
     * An embedded YouTube video (using `<iframe>`)
+    * Check [here](https://support.google.com/youtube/answer/171780?hl=en) for how to find the correct link.
   - Configure the `<footer>` element to contain a copyright notice displayed in small font size.
 
   ![Exercise12](images/exercise12.png)
