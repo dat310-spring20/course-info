@@ -1,6 +1,6 @@
   # UiS DAT310 Web Programming course
 
-This repository is for the 2020 spring edition of the DAT310 Web programming course at the University of Stavanger.
+This repository is for the 2020 spring edition of the DAT310 Web programming course at the University of Stavanger. 
 
   - [Assignments](https://github.com/dat310-spring20/assignments) (and [how to hand them in on GitHub](HOWTO_GitHub.md))
   - [Online course admin](https://ux.uis.no/~ljehl/dat310/)
@@ -45,3 +45,5 @@ This is a tentative shedule and will be subject to changes.
 | 17/04 Fri | Trial exam /Part I. | |
 | 21/04 Tue | Trial exam /Part II. | |
 | 24/04 Fri | Circuit war final | |
+
+Test
