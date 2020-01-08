@@ -42,24 +42,42 @@ Make the div with id `banner` appear in the top right corner of the page, 20px f
 ![Exercise2c](images/exercise2c.png)
 
 
-## Exercise #3: Floating articles
+## Exercise #3: Flexbox centering
 
 [Starter file](exercise3.html)
 
-  - Set the article dimensions to 200x100px and set some background.
-  - Make the articles float next to each other with 10px space in between them.  
-  - The text should not overflow the boxes.
-  - The article with the `promo` class should take an entire line on its own. Further,
-    * the content should be typeset in bold and made scrollable;
-    * change the height of this box to half of the regular (i.e., to 50px);
-    * inherit the background color from the body;
-    * separate it from the other content by red horizontal lines (achieve this by setting top and bottom padding and borders).
-
+  - Center the `inner` div withing the `box`, vertically and horizontally.
+  - Use `text-align` property to also center the text.
 
 ![Exercise3](images/exercise3.png)
 
+## Exercise #4: Flexbox articles
 
-## Exercise #4: Layout
+[Starter file](exercise4.html)
+
+  - Set some background color for the page and the articles.
+  - Set the article dimension to 400x200px.
+  - Use a flexbox to display the articles next to each other with 10px distance.
+  - Ensure articles are wrapped to a new line.
+  - Ensure articles grow, to take up the complete width.
+
+![Exercise4 with large screen size](images/exercise4-1.png)
+
+![Exercise4 with small screen size](images/exercise4-2.png)
+
+## Exercise #4a: Flexbox directions
+
+[Starter file](exercise4a.html)
+
+  - Use a flexbox to ensure the image and description are displayed side by side on large screens and below each other on smaller screens.
+  - Use another flexbox for the `description`. When displayed next to the image, the different paragraphs and heading should spread out.
+
+![Exercise4a with large screen size](images/exercise4a-1.png)
+
+![Exercise4a with small screen size](images/exercise4a-2.png)
+
+
+## Exercise #5: Layout
 
 Change the 2-column layout from the examples such that:
 
@@ -69,4 +87,4 @@ Change the 2-column layout from the examples such that:
   - Set background colors `#ffffcc` for the body, `white` for main, and `#e3e3e3` for the navigation menu.
   - Add a footer with 30px height that is always visible and fills the entire width of the browser window.
 
-![Exercise4](images/exercise4.png)
+![Exercise5](images/exercise5.png)

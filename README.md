@@ -15,9 +15,9 @@ This is a tentative shedule and will be subject to changes.
 | Date | Topic | Resources |
 | --- | --- | --- |
 | 07/01 Tue | HTML basics | [slides](slides/HTML.pdf), [examples](examples/html/basic), [exercises](exercises/html/basic), [solutions](solutions/html/basic)|
-| 10/01 Fri | CSS Part I. (properties) | [slides](https://speakerdeck.com/ljehl/web-programming-css-p1), [examples](examples/css/properties), [exercises](exercises/css/properties), [solutions](solutions/css/properties) |
-| 14/01 Tue | CSS Part II. (selectors) |  |
-| 17/01 Fri | CSS Part III. (positioning) |  |
+| 10/01 Fri | CSS Part I. (properties) | [slides](slides/CSS-p1), [examples](examples/css/properties), [exercises](exercises/css/properties), [solutions](solutions/css/properties) |
+| 14/01 Tue | CSS Part II. (selectors) | [slides](slides/CSS-p2), [examples](examples/css/selectors), [exercises](exercises/css/selectors), [solutions](solutions/css/selectors) |
+| 17/01 Fri | CSS Part III. (positioning) | [slides](slides/CSS-p3), [examples](examples/css/positioning), [exercises](exercises/css/positioning), [solutions](solutions/css/positioning) |
 | 21 /01 Tue | HTML Forms |   |
 | 24/01 Fri | JavaScript Part I. (basics)  |  |
 | 28/01 Tue | JavaScript Part II. (dom manipulation) |  |
