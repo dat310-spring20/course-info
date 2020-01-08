@@ -31,8 +31,9 @@ https://github.com/dat310-spring20/{username}-assignments
 
   * If the link does not work, then you might have to accept the GitHub invitation first (this is to be done only once). Go to https://github.com/dat310-spring20, where you should see an Accept button. Then, you will be able to access your repository.
   * When a new assignment is published, I will create a folder with starting code for this assignment and push it to your assignments repository. Make sure to pull ("sync") the starting code before starting on the assignment. It is important that the solution to your assignment is delivered within this folder.
-
-
+* **To hand in assignment 1** you push this repository to github, containing your solution in the folder named 1. 
+At deadline, I will download your assignments and correct them together with the student assistants.
+ 
 ### Assignments (assignments)
 
 This repository contains the description of assignments.
