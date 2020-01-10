@@ -1,6 +1,5 @@
 # CSS exercises, Part III. (positioning)
 
-[Exercise 3](#exercise-3:-flexbox-centering)
 
 ## Exercise #1: Hiding from a list
 
@@ -44,7 +43,7 @@ Make the div with id `banner` appear in the top right corner of the page, 20px f
 ![Exercise2c](images/exercise2c.png)
 
 
-## Exercise 3: Flexbox centering
+## Exercise #3: Flexbox centering
 
 [Starter file](exercise3.html)
 
