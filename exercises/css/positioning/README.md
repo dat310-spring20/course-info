@@ -1,6 +1,6 @@
 # CSS exercises, Part III. (positioning)
 
-[Exercise 3](# exercise-#3:-flexbox-centering)
+[Exercise 3](#exercise-#3:-flexbox-centering)
 
 ## Exercise #1: Hiding from a list
 
