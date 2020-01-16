@@ -1,5 +1,6 @@
 # CSS exercises, Part III. (positioning)
 
+
 ## Exercise #1: Hiding from a list
 
 Make an unordered list with numbers ranging from 1 to 10 and assign a unique ID to each list element.
