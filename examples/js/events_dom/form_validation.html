@@ -16,7 +16,7 @@
             return true;
         }
         function checkRegistration2(event){
-            let form_valid = (document.querySelector('#some_input').value == 'google');
+            let form_valid = (document.getElementById('some_input').value == 'google');
             if(!form_valid){
                 alert('Given data is incorrect');
                 // returning false will prevent the action from happening.
