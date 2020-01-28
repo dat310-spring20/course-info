@@ -19,7 +19,7 @@ This is a tentative shedule and will be subject to changes.
 | 14/01 Tue | CSS Part II. (selectors) | [slides](slides/CSS-p2.pdf), [examples](examples/css/selectors), [exercises](exercises/css/selectors), [solutions](solutions/css/selectors) |
 | 17/01 Fri | CSS Part III. (positioning) | [slides](slides/CSS-p3.pdf), [examples](examples/css/positioning), [exercises](exercises/css/positioning), [solutions](solutions/css/positioning) |
 | 21 /01 Tue | HTML Forms | [slides](slides/HTML-Forms.pdf), [examples](examples/html/forms), [exercises](exercises/html/forms), [solutions](solutions/html/forms)  |
-| 24/01 Fri | JavaScript Part I. (basics)  | [slides](slides/JS-p1.pdf), [examples](examples/js/basics), [exercises](exercises/js/basics), [solutions](solutions/js/basics) |
+| 24/01 Fri | JavaScript Part I. (basics)  | [slides](slides/JS-p2.pdf), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
 | 28/01 Tue | JavaScript Part II. (dom manipulation) |  |
 | 31/01 Fri | JavaScript Part III. (OOP) |  |
 | 04/02 Tue | Web protocols | |
