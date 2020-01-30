@@ -21,7 +21,7 @@ This is a tentative shedule and will be subject to changes.
 | 21 /01 Tue | HTML Forms | [slides](slides/HTML-Forms.pdf), [examples](examples/html/forms), [exercises](exercises/html/forms), [solutions](solutions/html/forms)  |
 | 24/01 Fri | JavaScript Part I. (basics)  | [slides](slides/JS-p1.pdf), [examples](examples/js/basics), [exercises](exercises/js/basics), [solutions](solutions/js/basics) |
 | 28/01 Tue | JavaScript Part II. (dom manipulation) | [slides](slides/JS-p2.pdf), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
-| 31/01 Fri | JavaScript Part III. (OOP) |  |
+| 31/01 Fri | JavaScript Part III. (more) | slides](slides/JS-p3.pdf), [examples](examples/js/more), [exercises](exercises/js/more), [solutions](solutions/js/more) |
 | 04/02 Tue | Web protocols | |
 | 07/02 Fri | Server-side programming I. (handling requests) | |
 | 11/02 Tue | Server-side programming II. (MySQL) | |
