@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Exercise #7b: Advanced playlist</title>
-    <link rel="stylesheet" href="exercise7.css">
+    <title>Exercise #3: Simple playlist</title>
+    <link rel="stylesheet" href="exercise3.css">
     <script>
         function handleButtonClick() {
             var textInput = document.getElementById("songTextInput");
@@ -16,21 +16,8 @@
                 var li = document.createElement("li");
                 li.innerHTML = songName;
                 var ul = document.getElementById("playlist");
-                // del is an image
-                var del = document.createElement("img");
-                del.src = "images/delete.png";
-                del.className = "delete";
-                del.onclick = delSong;
-                li.appendChild(del);
                 ul.appendChild(li);
             }
-        }
-
-        function delSong() {
-            // find the parent (li) element
-            var song = this.parentNode;
-            // delete the song (li) from the list (ul)
-            song.parentNode.removeChild(song);
         }
 
         window.onload = function () {

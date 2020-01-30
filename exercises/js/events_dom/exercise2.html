@@ -12,9 +12,19 @@
     </style>
     <script>
         /* TODO: write JS code here */
+        function changeColor(element){
+            let color = element.style.backgroundColor;
+            switch (color){
+                case "blue":
+                    element.style.backgroundColor = "red";
+                    break;
+                default:
+                    element.style.backgroundColor = "blue";
+            }
+        }
     </script>
 </head>
 <body>
-<div id="mydiv"></div>
+<div id="mydiv" onclick="changeColor(this);"></div>
 </body>
 </html>

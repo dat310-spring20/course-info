@@ -15,8 +15,23 @@
             font-weight: bold;
         }
     </style>
+    <script>
+        // use onmouseover onmouseleave and innerHTML
+        function ask(){
+            this.innerHTML = "Can I help you?";
+        }
+        function hello(){
+            this.innerHTML = "Hello World!";
+        }
+        function init() {
+            let mydiv = document.getElementById("mydiv");
+            mydiv.onmouseover = ask;
+            mydiv.onmouseleave = hello;
+        }
+        window.onload = init;
+    </script>
 </head>
 <body>
-<div id="mydiv">Hello world</div>
+<div id="mydiv" >Hello world</div>
 </body>
 </html>
