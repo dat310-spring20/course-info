@@ -39,10 +39,14 @@ class myHTTPServer_RequestHandler(BaseHTTPRequestHandler):
         # Send headers
         self.send_header('Content-type', 'text/html')
         self.end_headers()
-        x = self.rfile.read().decode()
-        print(x)
+        # Gets the size of data
+        l = int(self.headers.get("Content-length"))
+        # Gets the data itself (byte string)
+        vars = self.rfile.read(l)
 
-        message = "Hello world!"
+        # Input parameters (as a dict)
+        
+        message = "Hello POST!"
         # Write message content as utf-8 data
         self.wfile.write(bytes(message, "utf8"))
         return
