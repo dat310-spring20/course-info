@@ -23,7 +23,7 @@ This is a tentative shedule and will be subject to changes.
 | 28/01 Tue | JavaScript Part II. (dom manipulation) | [slides](slides/JS-p2.pdf), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
 | 31/01 Fri | JavaScript Part III. (more) | [slides](slides/JS-p3.pdf), [examples](examples/js/more), [exercises](exercises/js/more), [solutions](solutions/js/more) |
 | 04/02 Tue | Web protocols | [slides](slides/HTTP.pdf), [examples](examples/python/http), [exercises](exercises/python/http), [solutions](solutions/python/http) |
-| 07/02 Fri | Server-side programming I. (handling requests) | |
+| 07/02 Fri | Server-side programming I. (handling requests) | [slides](slides/Flask-p1.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask1), [solutions](solutions/python/flask1) |
 | 11/02 Tue | Server-side programming II. (MySQL) | |
 | 14/02 Fri | No lecture | |
 | 18/02 Tue | Midterm trial exam Part I. |  |
