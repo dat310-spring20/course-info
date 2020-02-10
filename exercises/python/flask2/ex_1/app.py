@@ -15,7 +15,7 @@ def index():
         "address": "Bakkestøvlvegen 81, Geilo, 3580, Norway",
         "phone": "+4732087200",
         "email": "resort@unknown.no",
-        "photo": "http://www.vestlia.no/wp-content/uploads/2014/11/slide2_2-845x321.jpg"
+        "photo": "https://vestlia.no/wp-content/uploads/2019/10/web_vestlia_night-1920x1080.jpg)"
     }
     book = {
         "nights": 1,
