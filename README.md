@@ -26,7 +26,7 @@ This is a tentative shedule and will be subject to changes.
 | 04/02 Tue | Web protocols | [slides](slides/HTTP.pdf), [examples](examples/python/http), [exercises](exercises/python/http), [solutions](solutions/python/http) |
 | 07/02 Fri | Server-side programming I. (handling requests) | [slides](slides/Flask-p1.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask1), [solutions](solutions/python/flask1) |
 | 11/02 Tue | Server-side programming II. (Templates) | [slides](slides/Flask-p2.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask2), [solutions](solutions/python/flask2) |
-| 14/02 Fri | No lecture | |
+| 14/02 Fri | No lecture, but Lab 10:15-12:00 |  |
 | 18/02 Tue | Midterm trial exam Part I. |  |
 | 21/02 Fri | Midterm trial exam Part II. |  |
 | 25/02 Tue | Vue.js |  |
