@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Vue -->
+    <!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>First Vue</title>
+    <style>
+        div {
+            background-color: lightgreen;
+            border: 2px solid black;
+            width: 300px;
+            height: 100px;
+        }
+        .error {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vue app below</h1>
+    <div id="app">
+    </div>
+
+    <script>
+        var app = new Vue({
+            // select the element for this app
+            el: "#app",
+            // specify a template
+            template: `
+                <div v-if="easy" class="success">Have fun!</div>
+                <div v-else class="error">Oh no!</div>`,
+            // the data used in this app
+            data: { 
+                easy: true
+            },
+            methods: {
+                toggleEasy: function(){
+                    if (this.easy) this.easy = false;
+                    else this.easy = true;
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+arr.splice(0,1)
