@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Vue -->
+    <!-- development version, includes helpful console warnings -->
+    <script src="src/vue.js"></script>
+    <script src="src/data.js"></script>
+
+    <script src="src/main.js"></script>
+    <script src="src/student.js"></script>
+    <script src="src/course.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Vue list</title>
+</head>
+<body>
+<div id="app">
+    <main-page 
+        v-bind:students="students" 
+        v-bind:courses="courses"
+        v-if="show == 'main-page'"
+        v-on:show-student="openStudent"
+        v-on:show-course="openCourse"
+    ></main-page>
+    <student-page 
+        v-bind:grades="studentGrades" 
+        v-bind:student="student"
+        v-if="show == 'student'"
+        v-on:back="back"
+    ></student-page>
+    <course-page 
+        v-bind:grades="courseGrades" 
+        v-bind:course="course"
+        v-if="show == 'course'"
+        v-on:back="back"
+    ></course-page>
+</div>
+<script>
+    let app = new Vue({
+        el: "#app",
+        data: {
+            courses: courses,
+            students: students,
+            grades: grades,
+            student: null,
+            course: null,
+        },
+        methods: {
+            openCourse: function(course){
+                    this.course = course;
+                    this.student = null;
+            },
+            openStudent: function(student){
+                    this.student = student;
+                    this.course = null;  
+            },
+            back: function(){
+                this.student = null;
+                this.course = null;
+            }
+        },
+        computed: {
+            show: function(){
+                if (this.student){
+                    return "student";
+                } 
+                if (this.course){
+                    return "course";
+                }
+                return "main-page";
+            },
+            studentGrades: function(){
+                return this.grades.filter(
+                    grade => grade.student_no === this.student.student_no );
+            },
+            courseGrades: function(){
+                return this.grades.filter(
+                    grade => grade.course_id === this.course.course_id );
+            },
+            
+        },
+    })
+</script>
+</body>
+</html>
