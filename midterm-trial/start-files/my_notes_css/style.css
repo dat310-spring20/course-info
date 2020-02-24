@@ -1,0 +1,92 @@
+body {
+    background-color: #cccccc;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+
+/* DISPLAY */
+
+
+article {
+    min-width: 350px;
+    padding: .5em;
+}
+
+.content {
+    background-color: #eeeeee;
+    padding: .5em;
+}
+
+.icon.main {
+    width: 200px;
+}
+
+.icon.exit {
+    width: 15px;
+    padding: 5px;
+}
+
+
+/* ASIDE */
+
+aside {
+    width: 360px;
+    background-color: #efefef;
+}
+
+.note-list {
+    padding: 0;
+    margin:0;
+}
+
+.note-list li {
+    padding: 10px .5em;
+    border-bottom: solid 1px #cccccc;
+    border-top: solid 1px #cccccc;
+    
+}
+
+
+/* HEADER and NAVBAR */
+header {
+    height: 50px;
+    background-color: #88baf9;
+}
+
+nav {
+    float: right;
+    min-height: 50px;    
+}
+
+.nav-list {
+    margin-right: 1em;
+}
+
+.nav-list li {
+    width: 100px;
+    border: solid 2px #0000FF;
+    padding: 5px 0;
+    
+    background-color: #5ca5ff;
+    color: white;
+}
+
+.nav-list a {
+    color: inherit;
+}
+
+
+/* Form styles */
+input, select {
+    width: 100px;
+    display: block;
+    margin: 10px 5px;
+}
+
+textarea {
+    display: block;
+    margin: 10px 5px;
+}

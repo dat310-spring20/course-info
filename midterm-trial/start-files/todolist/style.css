@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#addentry label, #addentry input {
+    display: inline-block;
+}
+
+#addentry label {
+    width: 30%;
+}
+
+#addentry input, #addentry select, #addentry textarea {
+    width: 60%;
+}
+
+#wrapper {
+    width: 330px;
+}
+
+#control {
+    margin-bottom: 5px;
+}
+
+#addentry {
+    border: 5px solid #ececec;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 5px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+#todos {
+    border: 5px solid #ececec;
+}
+
+.todo {
+    border-width: 1px 1px 1px 5px;
+    border-style: solid;
+    border-color: #999999;
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    font-family: Verdana, serif;
+    font-size: 0.8em;
+}
+
+.todo_title {
+    font-weight: bold;
+}
+
+.todo_date {
+    font-size: 0.8em;    
+}
+
+.todo_category {
+    position: absolute;
+    top:0;
+    right: 5px;
+}
