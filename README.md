@@ -38,7 +38,7 @@ This is a tentative shedule and will be subject to changes.
 | 17/03 Tue | JS Part IV. (async and promises) | |
 | 20/03 Fri | Server-side programming IV. (login) | |
 | 24/03 Tue | TBA |  |
-| 27/03 Fri | Bootstrap | |
+| 27/03 Fri | **Guest lecture** | Jørgen Lybeck Hansen, Capgemini |
 | 31/03 Tue | Web APIs |  |
 | 03/04 Fri | TBA | |
 | Easter break |
