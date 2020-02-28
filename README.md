@@ -30,7 +30,7 @@ This is a tentative shedule and will be subject to changes.
 | 18/02 Tue | Vue.js | [slides](slides/Vue-p1.pdf), [examples](examples/js/vue), [exercises](exercises/js/vue), [solutions](solutions/js/vue) |
 | 21/02 Fri | Vue.js | [slides](slides/Vue-p2.pdf), [examples](examples/js/vue2), [exercises](exercises/js/vue2), [solutions](solutions/js/vue2) |
 | 25/02 Tue | Midterm trial exam Part I. | [link](midterm-trial) |
-| 28/02 Fri | Midterm trial exam Part II. |  |
+| 28/02 Fri | Midterm trial exam Part II. | [midterm solution](midterm-trial/solution) |
 | 03/03 Tue | Åpen dag, no lectures | |
 | 06/03 Fri | Vue.js |  |
 | 10/03 Tue | Server-side programming III. (cookies and sessions) |  |
