@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Todos</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="todos.js"></script>
+        <script src="data.js"></script>
+    </head>
+    <body onload="displayEntries()">
+        <div id="wrapper">
+            <div id="control">
+                Display Category: All
+                <select id="display_category" onchange="displayEntries();">
+                    <option value="" selected>All</option>
+                    <option value="home">Home</option>
+                    <option value="work">Work</option>
+                    <option value="other">Other</option>
+                </select>
+                <!-- TODO: Add select to display only certain categories. -->
+            </div>
+
+			<!-- Add entry panel -->
+            <div id="addentry" style="display:block;">
+                <h2>Add Todo</h2>
+                <form action="javascript:void(0);" onsubmit="addEntry();">
+                    <label for="add_title">Title:</label>                        
+                    <input type="text" name="add_title" id="add_title" />
+                    <!-- TODO: Add select to choose category for new entry -->
+                    <label for="add_category">Category:</label>
+                    <select name="add_category" id="add_category">
+                        <option value="home">Home</option>
+                        <option value="work">Work</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="add_date">Date:</label>                        
+                    <input type="date" name="add_date" id="add_date"/>
+                    <label for="add_content">Todo:</label>
+                    <!-- TODO: add placeholder with semicolon example -->
+                    <textarea type="text" name="add_content" id="add_content" rows="4" 
+                    placeholder="Separate todos by semicolon: todo1; todo2; ..."
+                    ></textarea>
+                    <label for="submit"></label>
+                    <input type="submit" name="submit" value="Add" />
+                </form>
+            </div>
+            
+            <!-- Listing entries -->
+            <div id="todos"></div>
+        </div>
+
+    </body>
+</html>

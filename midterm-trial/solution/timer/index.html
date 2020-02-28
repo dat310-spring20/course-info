@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #4: Countdown timer</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form name="countdown_form" action="">
+    <input type="text" id="newtitle">
+    <select name="minutes" id="minutes">
+        <option value="0.25">15 seconds</option>
+        <option value="1">1 minute</option>
+        <option value="3">3 minutes</option>
+        <option value="5">5 minutes</option>
+        <option value="10">10 minutes</option>
+        <option value="15">15 minutes</option>
+    </select>
+    <input type="submit" value="Go!">
+</form>
+<div id="countdown">
+    <div id="timer">MM:SS</div>
+    <progress id="progressbar" value="100" max="100"></progress>
+    <h3 id="title"></h3>
+    <button onclick="cancel();">Cancel</button>
+    <button id="stop" onclick="toggle(false);">Stop</button>
+    <button id="start" onclick="toggle(true);">Continue</button>
+</div>
+</body>
+</html>
