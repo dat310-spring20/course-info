@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Vue -->
+    <!-- development version, includes helpful console warnings -->
+    <script src="js/vue.js"></script>
+    <script src="js/vuex.js"></script>
+
+
+    <script src="src/data.js"></script>
+    <script src="src/data-vuex.js"></script>
+
+    <script src="src/main.js"></script>
+    <script src="src/student.js"></script>
+    <script src="src/course.js"></script>
+    <script src="src/grade-form.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Vue list</title>
+</head>
+<body>
+<div id="app">
+    <main-page 
+        v-if="show == 'main-page'"
+        v-on:show-student="openStudent"
+        v-on:show-course="openCourse"
+    ></main-page>
+    <student-page 
+        v-bind:student_no="student.student_no"
+        v-if="show == 'student'"
+        v-on:back="back"
+    ></student-page>
+    <course-page 
+        v-bind:course_id="course.course_id"
+        v-if="show == 'course'"
+        v-on:back="back"
+    ></course-page>
+</div>
+<script>
+    let app = new Vue({
+        el: "#app",
+        store: vuexStore,
+        data: {
+            student: null,
+            course: null,
+        },
+        methods: {
+            openCourse: function(course){
+                    this.course = course;
+                    this.student = null;
+            },
+            openStudent: function(student){
+                    this.student = student;
+                    this.course = null;  
+            },
+            back: function(){
+                this.student = null;
+                this.course = null;
+            }
+        },
+        computed: {
+            show: function(){
+                if (this.student){
+                    return "student";
+                } 
+                if (this.course){
+                    return "course";
+                }
+                return "main-page";
+            },
+            
+        },
+    })
+</script>
+</body>
+</html>

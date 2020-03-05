@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vue Router Exercise 2</title>
+
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+</head>
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+
+    <script>
+        let main = {
+            template: `
+            <div>
+                <h1>Welcome to the main page</h1>
+                <label for="fruit">Type a fruit</label>
+                <input type="text" id="fruit" v-model="fruit">
+                <router-link v-bind:to="'/fruit/' + fruit">Choose</router-link>
+            </div>
+            `,
+            data: function(){
+                return { fruit: ''};
+            }
+            
+        };
+        let fruitPage = {
+            template: `
+            <div>
+                <h2>You have chosen {{ $route.params.fruit }}</h2>
+                <router-link to="/">Back</router-link>
+            </div>
+            `
+        }
+
+        let router = new VueRouter({
+            routes:[
+                { path: '/', component: main},
+                { path: '/fruit/:fruit', component: fruitPage}
+            ]
+        })
+
+        let app = new Vue({
+            el: "#app",
+            router: router
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Vue -->
+    <!-- development version, includes helpful console warnings -->
+    <script src="src/vue.js"></script>
+    <script src="vue-router.js"></script>
+    <script src="src/data.js"></script>
+
+    <script src="src/list.js"></script>
+    <script src="src/form.js"></script>
+
+    <script src="src/router.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Vue list</title>
+</head>
+<body>
+<div id="app">
+    <router-link to="/">Favorites</router-link>
+    <router-link to="/all">All</router-link>
+    <router-view></router-view>
+    <fruit-form></fruit-form>
+
+</div>
+<script>
+    let app = new Vue({
+        el: "#app",
+        router: router,
+    })
+</script>
+</body>
+</html>

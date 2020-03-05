@@ -32,12 +32,12 @@ This is a tentative shedule and will be subject to changes.
 | 25/02 Tue | Midterm trial exam Part I. | [link](midterm-trial) |
 | 28/02 Fri | Midterm trial exam Part II. | [midterm solution](midterm-trial/solution) |
 | 03/03 Tue | Åpen dag, no lectures | |
-| 06/03 Fri | Vue.js |  |
-| 10/03 Tue | Server-side programming III. (cookies and sessions) |  |
-| 13/03 Fri | AJAX |  |
-| 17/03 Tue | JS Part IV. (async and promises) | |
-| 20/03 Fri | Server-side programming IV. (login) | |
-| 24/03 Tue | TBA |  |
+| 06/03 Fri | Vue.js | [slides](slides/Vue-p3.pdf), [examples](examples/js/vue3), [exercises](exercises/js/vue3), [solutions](solutions/js/vue3) |
+| 10/03 Tue | AJAX |  |
+| 13/03 Fri | JS Part IV. (async and promises) |  |
+| 17/03 Tue | TBA | |
+| 20/03 Fri | Server-side programming III. (database handling) | |
+| 24/03 Tue | Server-side programming IV. (cookies and sessions) |  |
 | 27/03 Fri | **Guest lecture** | Jørgen Lybeck Hansen, Capgemini |
 | 31/03 Tue | Web APIs |  |
 | 03/04 Fri | TBA | |
