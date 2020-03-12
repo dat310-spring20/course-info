@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON via AJAX</title>
+    <script src="/static/student.js"></script>
+</head>
+<body>
+
+
+<table id="student_table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Student Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+</table>
+<br>
+
+<button onclick="getStudents();">Load students</button>
+<br>
+<br>
+
+<form action="#">  <!-- form action does not matter for now as we don't actually submit the form -->
+    <label for="name">Name</label>
+    <input type="text" id="name">
+    <br>
+    <label for="student_no">Student Number</label>
+    <input type="text" id="student_no">
+    <br>
+    <button onclick="addStudent();">Add student</button>
+</form>
+
+
+
+</body>
+</html>
