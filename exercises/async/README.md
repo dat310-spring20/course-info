@@ -1,4 +1,4 @@
-# AJAX exercises
+# Async exercises
 
 ## Exercise #1: Checking username
 
