@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Vue -->
+    <!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script src="card.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+    <title>Example</title>
+</head>
+<body>
+    <div id="app">
+        <div class="cardboard" style="width: 400px;">
+            <!-- for the assignment create many cards using v-for -->
+            <card v-bind:card="card" v-on:flip="flip(card)"></card>
+        </div>
+    </div>
+
+    <script>
+        var app = new Vue({
+            // select the element for this app
+            el: "#app",
+            data: {
+                // for the assignment you can have many cards here.
+                
+                card: {
+                    img: "images/css.jpg",
+                    flipped: false,
+                    matched: false
+                }
+            },
+            methods: {
+                flip(card){
+                    if (!card.matched){
+                        card.flipped = true;
+                    }
+                },
+                flipBack(card){
+                    // flip the card back, after some timeout
+                    setTimeout(function(){
+                        card.flipped = false;
+                    },1000);
+                }
+            }
+        })
+    </script>
+</body>
+</html>
