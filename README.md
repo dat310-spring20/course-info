@@ -35,7 +35,7 @@ This is a tentative shedule and will be subject to changes.
 | 06/03 Fri | Vue.js | [slides](slides/Vue-p3.pdf), [examples](examples/js/vue3), [exercises](exercises/js/vue3), [solutions](solutions/js/vue3) |
 | 10/03 Tue | AJAX | [slides](slides/AJAX.pdf), [examples](examples/ajax), [exercises](exercises/ajax), [solutions](solutions/ajax) |
 | 13/03 Fri | JS Part IV. (async and promises) | [slides](slides/Async.pdf), [examples](examples/async), [exercises](exercises/async), [solutions](solutions/async), [video](https://stavanger.instructuremedia.com/embed/03db8b39-7e41-47a9-b3f6-26d5832127e0) |
-| 17/03 Tue | AJAX and Vue | |
+| 17/03 Tue | AJAX and Vue | [slides](slides/AJAX+Vue.pdf), [examples](examples/ajax), [exercises](exercises/ajax/vue), [solutions](solutions/ajax/vue) |
 | 20/03 Fri | Server-side programming III. (database handling) | |
 | 24/03 Tue | Server-side programming IV. (cookies and sessions) |  |
 | 27/03 Fri | **Guest lecture** | Jørgen Lybeck Hansen, Capgemini |
