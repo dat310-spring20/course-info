@@ -38,7 +38,7 @@ This is a tentative shedule and will be subject to changes.
 | 17/03 Tue | AJAX and Vue | [slides](slides/AJAX+Vue.pdf), [examples](examples/ajax), [exercises](exercises/ajax/vue), [solutions](solutions/ajax/vue) |
 | 20/03 Fri | Server-side programming III. (database handling) | |
 | 24/03 Tue | Server-side programming IV. (cookies and sessions) |  |
-| 27/03 Fri | **Guest lecture** | Jørgen Lybeck Hansen, Capgemini |
+| 27/03 Fri | ~Guest lecture~ cancelled | extra time for assignments |
 | 31/03 Tue | Web APIs |  |
 | 03/04 Fri | TBA | |
 | Easter break |
