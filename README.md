@@ -36,7 +36,7 @@ This is a tentative shedule and will be subject to changes.
 | 10/03 Tue | AJAX | [slides](slides/AJAX.pdf), [examples](examples/ajax), [exercises](exercises/ajax), [solutions](solutions/ajax) |
 | 13/03 Fri | JS Part IV. (async and promises) | [slides](slides/Async.pdf), [examples](examples/async), [exercises](exercises/async), [solutions](solutions/async), [video](https://stavanger.instructuremedia.com/embed/03db8b39-7e41-47a9-b3f6-26d5832127e0) |
 | 17/03 Tue | AJAX and Vue | [slides](slides/AJAX+Vue.pdf), [examples](examples/ajax), [exercises](exercises/ajax/vue), [solutions](solutions/ajax/vue) |
-| 20/03 Fri | Server-side programming III. (database handling) | |
+| 20/03 Fri | Server-side programming III. (database handling) | [slides](slides/Flask-p3.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask3), [solutions](solutions/python/flask3), [video](https://stavanger.instructuremedia.com/embed/f4258e2d-2c55-43ca-b152-74f8dd0cc74c) |
 | 24/03 Tue | Server-side programming IV. (cookies and sessions) |  |
 | 27/03 Fri | ~Guest lecture~ cancelled | extra time for assignments |
 | 31/03 Tue | Web APIs |  |

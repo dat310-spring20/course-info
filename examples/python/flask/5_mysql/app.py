@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Application config
 app.config["DATABASE_USER"] = "root"
-app.config["DATABASE_PASSWORD"] = "root"
+app.config["DATABASE_PASSWORD"] = "foobarfoo"
 app.config["DATABASE_DB"] = "dat310"
 app.config["DATABASE_HOST"] = "localhost"
 app.debug = True  # only for development!
@@ -17,6 +17,7 @@ app.secret_key = 'some_secret'  # needed for flashing
 
 def get_db():
     if not hasattr(g, "_database"):
+        print("create connection")
         g._database = mysql.connector.connect(host=app.config["DATABASE_HOST"], user=app.config["DATABASE_USER"],
                                        password=app.config["DATABASE_PASSWORD"], database=app.config["DATABASE_DB"])
     return g._database
@@ -27,6 +28,7 @@ def teardown_db(error):
     """Closes the database at the end of the request."""
     db = getattr(g, '_database', None)
     if db is not None:
+        print("close connection")
         db.close()
 
 
