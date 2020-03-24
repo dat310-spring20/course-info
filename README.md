@@ -38,11 +38,11 @@ This is a tentative shedule and will be subject to changes.
 | 17/03 Tue | AJAX and Vue | [slides](slides/AJAX+Vue.pdf), [examples](examples/ajax), [exercises](exercises/ajax/vue), [solutions](solutions/ajax/vue), [video](https://stavanger.instructuremedia.com/embed/325a2b97-9dcd-4dc5-8ef0-920436216e62) |
 | 20/03 Fri | Server-side programming III. (database handling) | [slides](slides/Flask-p3.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask3), [solutions](solutions/python/flask3), [video](https://stavanger.instructuremedia.com/embed/f4258e2d-2c55-43ca-b152-74f8dd0cc74c) |
 | 24/03 Tue | cancelled |  |
-| 27/03 Fri |  Server-side programming IV. (cookies and sessions) |  |
-| 31/03 Tue | Web APIs |  |
+| 27/03 Fri | cancelled |  |
+| 31/03 Tue | Server-side programming IV. (cookies and sessions) |  |
 | 03/04 Fri | TBA | |
 | Easter break |
-| 14/04 Tue | TBA | |
+| 14/04 Tue | Web APIs | |
 | 17/04 Fri | Trial exam /Part I. | |
 | 21/04 Tue | Trial exam /Part II. | |
 | 24/04 Fri | Circuit war final | |
