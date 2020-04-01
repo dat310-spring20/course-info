@@ -38,15 +38,9 @@ This is a tentative shedule and will be subject to changes.
 | 17/03 Tue | AJAX and Vue | [slides](slides/AJAX+Vue.pdf), [examples](examples/ajax), [exercises](exercises/ajax/vue), [solutions](solutions/ajax/vue), [video](https://stavanger.instructuremedia.com/embed/325a2b97-9dcd-4dc5-8ef0-920436216e62) |
 | 20/03 Fri | Server-side programming III. (database handling) | [slides](slides/Flask-p3.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask3), [solutions](solutions/python/flask3), [video](https://stavanger.instructuremedia.com/embed/f4258e2d-2c55-43ca-b152-74f8dd0cc74c) |
 | 24/03 Tue | cancelled |  |
-<<<<<<< HEAD
 | 27/03 Fri | ~Guest lecture~ cancelled | extra time for assignments |
 | 31/03 Tue | cancelled |  |
 | 03/04 Fri | Server-side programming IV. (cookies and sessions) | [slides](slides/Flask-p4.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4) |
-=======
-| 27/03 Fri | cancelled |  |
-| 31/03 Tue | Server-side programming IV. (cookies and sessions) |  |
-| 03/04 Fri | TBA | |
->>>>>>> 460abfdbf8cc743e3a3648d821d306695f7ca91f
 | Easter break |
 | 14/04 Tue | Web APIs | |
 | 17/04 Fri | Trial exam /Part I. | |
