@@ -40,7 +40,7 @@ This is a tentative shedule and will be subject to changes.
 | 24/03 Tue | cancelled |  |
 | 27/03 Fri | ~Guest lecture~ cancelled | extra time for assignments |
 | 31/03 Tue | cancelled |  |
-| 03/04 Fri | Server-side programming IV. (cookies and sessions) | [slides](slides/Flask-p4.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4) |
+| 03/04 Fri | Server-side programming IV. (cookies and sessions) | [slides](slides/Flask-p4.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4), [video](https://stavanger.instructuremedia.com/embed/fa825107-c73c-4b64-9005-0e8628e331bb) |
 | Easter break |
 | 14/04 Tue | Web APIs | |
 | 17/04 Fri | Trial exam /Part I. | |
