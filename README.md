@@ -43,7 +43,7 @@ This is a tentative shedule and will be subject to changes.
 | 03/04 Fri | Server-side programming IV. (cookies and sessions) | [slides](slides/Flask-p4.pdf), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4), [video](https://stavanger.instructuremedia.com/embed/fa825107-c73c-4b64-9005-0e8628e331bb) |
 | Easter break |
 | 14/04 Tue | Web APIs | |
-| 17/04 Fri | Trial exam  | [info](exam/trial-exam.md) |
+| 17/04 Fri | Trial exam  | [info](exam/README.md) |
 | 21/04 Tue | Trial exam /Part II. | |
 | 24/04 Fri | Circuit war final | |
 
