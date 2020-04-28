@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.box {
+  width: 350px;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; 
+/*   margin: auto; */
+}
+
+.framed {
+  margin: 10px 5px;
+  padding: 10px;
+  border: 2px solid lightgray;
+}
+
+.bignote {
+  width: 316px;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+ul {
+  padding: 0;  
+  margin: 0;
+}
+
+li {
+  list-style: none;  
+  cursor: pointer;
+}
+
+.home {
+    background-color: lightgoldenrodyellow;
+    border-color: yellow;
+}
+
+.university {
+    background-color: lightskyblue;
+    border-color: blue;
+}
+
+.done {
+  float: right;
+}
+
+.category {
+  float: right;
+  text-transform: capitalize;
+  font-weight: normal;
+}

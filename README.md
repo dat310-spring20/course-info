@@ -2,6 +2,8 @@
 
 This repository is for the 2020 spring edition of the DAT310 Web programming course at the University of Stavanger. 
 
+  - [Exam FA](exam/FAQ.md)
+  - [Trial exam](exam)
   - [Assignments](https://github.com/dat310-spring20/assignments) (and [how to hand them in on GitHub](HOWTO_GitHub.md))
   - [Online course admin](https://ux.uis.no/~ljehl/dat310/)
   - [List of useful resources](Resources.md)

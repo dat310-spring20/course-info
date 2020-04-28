@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam question 15: Flask templates</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <div id="container">
+        
+    <h1>Scores</h1>
+    
+        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+            <tr>
+                <td>John <strong>Doe</strong> </td>
+                <td>13</td>
+            </tr>
+        
+    
+        
+            <tr>
+                <td><em>Mary Jane</em> </td>
+                <td>21</td>
+            </tr>
+        
+    
+        
+            <tr>
+                <td>Lars <s>Kongen</s> </td>
+                <td>4</td>
+            </tr>
+        
+            </tbody>
+            </table>
+        
+    
+    <h2>Add player</h2>
+    <form action="/add" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <input type="submit" value="Add">
+    </form>
+
+
+
+    </div>
+</body>
+</html>

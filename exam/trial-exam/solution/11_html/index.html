@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <form action="/feedback" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="comment">Comment</label><br>
+        <textarea name="comment" id="comment" cols="40" rows="5"></textarea><br>
+        Notify my about: 
+        <input type="checkbox" name="notify_news" id="notify_news">
+        <label for="notify_news">News</label>
+        <input type="checkbox" name="notify_offers" id="notify_offers">
+        <label for="notify_offers">Offers</label>
+        <input type="checkbox" name="notify_events" id="notify_events">
+        <label for="notify_events">News</label>
+        <br>
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>

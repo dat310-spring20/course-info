@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam question 16: Vue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="vue.js"></script>
+    <script src="bignote.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="box">
+            <div class="framed">
+                <h4>Add</h4>
+                
+                <label for="text">Text</label>
+                <input type="text" id="text">
+                <br>
+                <label for="category">Category</label>
+                <select id="category">
+                    <option value="other">Other</option>
+                    <option value="home">Home</option>
+                    <option value="university">University</option>
+                </select>
+                <!-- TODO: When the button is clicked, add a new note. 
+                     Use v-model to include the input and select value in the data
+                     Use v-on to add new item -->
+                <button>add</button>
+            </div>
+            <ul>
+                <!-- TODO: instead of the 3 <li> below, display the element in notes using v-for. -->
+                <li class="framed other" v-on:click="show(0);">
+                    <div><span>1: </span>
+                        <span>Wash hands</span>
+                    </div>
+                </li>
+                <li class="framed home" v-on:click="show(1);">
+                    <div class="done">
+                        <img src="images/checked.svg" alt="done">
+                    </div>
+                    <div><span>2: </span>
+                        <span>Bingewatch netflix</span>
+                    </div>
+                </li>
+                <li class="framed university" v-on:click="show(2);">
+                    <div><span>3: </span>
+                        <span>Revise assignment 8</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- TODO: move the div below, with content into a directive -->
+        <div class="framed box bignote" v-bind:class="bignote.category">
+            <h4>{{ bignote.text }}
+                <span class="category">#{{ bignote.category }}</span>
+            </h4>
+            <button v-if="!bignote.done" v-on:click="mark">Mark as done</button>
+            <span v-else>Done!</span>
+        </div>
+
+    </div>
+
+    <script>
+
+        let app = new Vue({
+            el: "#app",
+            data: {
+                notes: [
+                    {
+                        text: "Wash hands", 
+                        category: "other",
+                        done: false
+                    },
+                    {
+                        text: "Bingewatch netflix", 
+                        category: "home",
+                        done: true
+                    },
+                    {
+                        text: "Revise assignment 8", 
+                        category: "university",
+                        done: false
+                    }
+                ],
+                new_text: "",
+                new_category: "home",
+                displayed: 0,
+            },
+            computed: {
+                bignote: function(){
+                    return this.notes[this.displayed];
+                }
+            },
+            methods: {
+                show: function(index){
+                    this.displayed = index;
+                },
+                mark: function(){
+                    this.notes[this.displayed].done = true;
+                },
+            }
+        })
+    </script>
+</body>
+</html>

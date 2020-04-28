@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    padding: 20px;
+}
+
+#links {
+    border: 2px outset #359636;
+    background-color: #99cc99;
+}
+
+h1, h2 {
+    color: #359636;
+    font-family: Garamond, serif;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.white-list {
+    color: white;
+    font-size: 120%;
+}
+
+.outer-black-list li {
+    list-style-type: none;
+}
+
+.outer-black-list>li {
+    font-weight: bold;
+}
+
+.outer-black-list {
+    padding-left: 0;
+}
+
+.inner-black-list {
+    padding-left: 30px;
+}
+
+.inner-black-list>li {
+    font-weight: normal;
+}

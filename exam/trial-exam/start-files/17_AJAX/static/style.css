@@ -1,0 +1,13 @@
+li {
+    font-size: 25px;
+}
+
+li.saving {
+    list-style-image: url("/static/saving.gif");
+}
+.framed {
+    display: inline-block;
+    border: 2px solid lightgray;
+    padding: 5px;
+}
+

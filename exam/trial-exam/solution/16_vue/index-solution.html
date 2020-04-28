@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam question 16: Vue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="vue.js"></script>
+    <script src="bignote-solution.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="box">
+            <div class="framed">
+                <h4>Add</h4>
+                <label for="text">Text</label>
+                <input type="text" id="text" v-model="new_text">
+                <br>
+                <label for="category">Category</label>
+                <select v-model="new_category" id="category">
+                    <option value="other">Other</option>
+                    <option value="home">Home</option>
+                    <option value="university">University</option>
+                </select>
+                <button v-on:click="add">add</button>
+            </div>
+        
+            <ul>
+                <li v-for="note, index in notes" v-bind:class="note.category" class="framed" v-on:click="show(index)">
+                    <div class="done" v-if="note.done">
+                        <img src="images/checked.svg" alt="done">
+                    </div>
+                    <div><span>{{ index }}: </span>
+                        <span>{{ note.text }}</span>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+        <big-note v-bind:display="bignote" v-on:done="markdone"></big-note>
+
+    </div>
+
+    <script>
+
+        let app = new Vue({
+            el: "#app",
+            data: {
+                notes: [
+                    {
+                        text: "Wash hands.", 
+                        category: "other",
+                        done: false
+                    },
+                    {
+                        text: "Bingewatch netflix.", 
+                        category: "home",
+                        done: true
+                    },
+                    {
+                        text: "Revise assignment 8", 
+                        category: "university",
+                        done: false
+                    }
+                ],
+                displayed: 0,
+                new_text: "",
+                new_category: "home"
+            },
+            computed: {
+                bignote: function(){
+                    return this.notes[this.displayed];
+                }
+            },
+            methods: {
+                add: function(){
+                    if (this.new_text === ""){
+                        return;
+                    }
+                    this.notes.push({
+                        text: this.new_text,
+                        category: this.new_category,
+                        done: false
+                    });
+                    this.new_text = "";
+                },
+                show: function(index){
+                    this.displayed = index;
+                },
+                markdone: function(){
+                    this.notes[this.displayed].done = true;
+                }
+            }
+        })
+    </script>
+</body>
+</html>
