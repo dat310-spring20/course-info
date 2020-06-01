@@ -22,16 +22,14 @@ function changeColor(){
     let color = this.style.backgroundColor;
     switch (color) {
         case "green":
-            color = "blue"
+            this.style.backgroundColor = "blue"
             break;
         case "red":
-            color = "green"
+            this.style.backgroundColor = "green"
             break;
         default:
-            color = "red";
-            break;
+            this.style.backgroundColor = "red";
     }
-    this.style.backgroundColor = color;
 }
 
 function remove(){
