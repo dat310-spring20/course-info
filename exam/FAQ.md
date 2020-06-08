@@ -9,3 +9,5 @@
 **Question: Is the exam graded or pass/fail?**
 > A: The exam will be graded as normal.
 
+**Question: Can I use 7zip, or a different compression tool?**
+> A: No, you need to use standard zip compression. Otherwise you may be unable to upload your files. A last resort, if you are unable to do that, is to send your files per email to the exam office.
